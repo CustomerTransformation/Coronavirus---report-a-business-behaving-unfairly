@@ -1,0 +1,16 @@
+[
+    {
+        "ID": "5e82f58e9ac83",
+        "Name": "CVR011 - store Business behaving unfairly in Database",
+        "Type": "DATABASE",
+        "LIM_id": "83ef69d1-2c5e-11e5-ad20-22000a7a05f5",
+        "Editable": true,
+        "LIM_name": "Portsmouth",
+        "Category": "Community",
+        "data_type": "integration",
+        "allow_offline": 0,
+        "Output_template": "{\"systemID\":\"5ad8984ca953a\",\"systemName\":\"Community\",\"query\":\"EXEC businessBehaveUnfairStore \\n\\t\\t\\t\\t@reference = {reference}\\n                ,@businessName = {businessName}\\n\\t\\t\\t\\t,@whereBusiness = {whereBusiness}\\n\\t\\t\\t\\t,@URL = {URL}\\n\\t\\t\\t\\t,@businessAddress = {businessAddress/AdTextArea_out}\\n\\t\\t\\t\\t,@businessEmail = {businessEmail}\\n\\t\\t\\t\\t,@businessSector = {businessSector}\\n\\t\\t\\t\\t,@reportWhat = {reportWhat}\\n\\t\\t\\t\\t,@product = {whatIsTheProduct}\\n\\t\\t\\t\\t,@issueDescription = {issueDescription}\\n\\t\\t\\t\\t,@haveEvidence = {HaveEvidence}\\n\\t\\t\\t\\t,@evidenceUploaded = {evidenceUploaded}\\n\\t\\t\\t\\t,@yourTitle = {yourDetails/Title_out}\\n\\t\\t\\t\\t,@yourFirstName = {yourDetails/First_Name_out}\\n\\t\\t\\t\\t,@yourLastName = {yourDetails/Surname_out}\\n\\t\\t\\t\\t,@yourAddress = {yourDetails/AdTextArea_out}\\n\\t\\t\\t\\t,@yourEmail = {yourDetails/Email_Address_out}\\n\\t\\t\\t\\t,@yourPhone = {yourDetails/Phone_Number_out}\\n\\t\\t\\t\\t,@yourMobile = {yourDetails/Mobile_Number_out}\",\"results_page_columns_db\":\"\",\"secure_fields_db_database\":\"\",\"escapeTokens\":\"yes\"}",
+        "log_only_on_error": 0,
+        "error_notification": "{\"LIM_id\":\"3f07ecf4-0dfa-11e2-b0b9-12313b03ed59\",\"LIM_name\":\"LIM14\",\"recipients_to\":\"daniel.gregory@portsmouthcc.gov.uk\"}"
+    }
+]
